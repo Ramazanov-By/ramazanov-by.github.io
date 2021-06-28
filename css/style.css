@@ -1,0 +1,65 @@
+body {
+    background: #FDCA40;
+}
+
+p {
+    font-family: cursive;
+    font-size: 24px;
+}
+
+a {
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+img {
+    width: 823px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-family: cursive;
+}
+
+q {
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.container {
+    width: 960px;
+    padding: 50px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.menu__link {
+    border: 1px double black;
+    padding: 5px 30px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    background: #687980;
+    color: #fff;
+}
+
+
+/*-------------------------- profile.html -------------------------*/
+
+.profile_items {
+    list-style: none;
+    font-size: 22px;
+}
+
+/*-------------------------- media -------------------------*/
+
+@media screen and (max-width: 576px) {
+    .menu__link {
+        font-size: 28px;
+    }
+}
